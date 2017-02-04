@@ -27,9 +27,11 @@ div.wrapper {
 	text-align: center;
 }
 
-span.signuptitle {
+.signuptitle {
 	color: #666;
 	font-size: 35px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .signupform {
