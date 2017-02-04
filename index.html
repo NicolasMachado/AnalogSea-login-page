@@ -13,7 +13,7 @@
 <body>
 <div class="wrapper">
 	<span class="signuptitle">Sign up</span>
-	<form class="signupform" action="signup" method="post">
+	<form class="signupform" action="/signup/" method="post">
 		<fieldset>
     		<label for="email">Email</label>
     		<input type="email" name="email" placeholder="foo@bar.com" id="email" required>
@@ -22,10 +22,10 @@
     		<input type="submit" name="signup" value="Sign up">			
 		</fieldset>
 	</form>
-	<a class="forgotpassword" href="forgot-password/new">Forgot password?</a>
+	<a class="forgotpassword" href="/forgot-password/new">Forgot password?</a>
 </div>
 <div class="alreadyaccount">
-	Already have an account? <a class="alreadyaccount" href="login">Log in</a>
+	Already have an account? <a class="alreadyaccount" href="/login">Log in</a>
 </div>
 </body>
 </html>
